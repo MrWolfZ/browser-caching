@@ -1,1 +1,1 @@
-module.exports.CacheFactory = require('./dist-es5/cacheFactory');
+module.exports.CacheFactory = require('./dist/cacheFactory');
