@@ -4,9 +4,9 @@
   "description": "A comprehensive caching library written in TypeScript to be used in the browser. It offers multiple caching levels (transient, session, infinite) as well as pre-defined and custom expiration policies.",
   "main": "index.js",
   "scripts": {
-	"build": "tsc -p src --outDir dist",
-	"build-es5": "tsc -p src --outDir dist-es5",
-	"build-es6": "tsc -p src --outDir dist-es6 -t ES6",
+    "build": "tsc -p src --outDir dist",
+    "build-es5": "tsc -p src --outDir dist-es5",
+    "build-es6": "tsc -p src --outDir dist-es6 -t ES6",
     "test": ""
   },
   "repository": {
@@ -27,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/MrWolfZ/browser-caching/issues"
   },
-  "homepage": "https://github.com/MrWolfZ/browser-caching"
+  "homepage": "https://github.com/MrWolfZ/browser-caching",
+  "jspm": {
+    "directories": {},
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    }
+  }
 }
