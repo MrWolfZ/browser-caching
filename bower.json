@@ -1,0 +1,31 @@
+{
+  "name": "browser-caching",
+  "main": "index.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/MrWolfZ/browser-caching",
+  "authors": [
+    "Jonathan Ziller <jonathan.ziller@gmail.com>"
+  ],
+  "description": "A comprehensive caching library written in TypeScript to be used in the browser. It offers multiple caching levels (transient, session, infinite) as well as pre-defined and custom expiration policies.",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "es6",
+    "ts",
+    "TypeScript",
+    "js",
+    "JavaScript",
+    "cache",
+    "caching"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
